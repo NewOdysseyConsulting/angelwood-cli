@@ -1,0 +1,16 @@
+{
+  "name": "angelwood-cli",
+  "version": "0.1.0",
+  "description": "Command-line client for Angelwood, the client portal and client operations platform for agencies: list clients, projects, tasks and invoices, and create clients and tasks.",
+  "keywords": ["angelwood", "cli", "client-portal", "agency", "clients", "projects", "tasks", "invoices"],
+  "homepage": "https://angelwood.io",
+  "bugs": { "email": "support@angelwood.io" },
+  "repository": { "type": "git", "url": "git+https://github.com/NewOdysseyConsulting/angelwood-cli.git" },
+  "license": "MIT",
+  "author": { "name": "Angelwood", "email": "support@angelwood.io", "url": "https://angelwood.io" },
+  "type": "module",
+  "bin": { "angelwood": "bin/angelwood.js" },
+  "files": ["bin", "README.md", "LICENSE"],
+  "engines": { "node": ">=20" },
+  "scripts": { "test": "node --test" }
+}
