@@ -7,7 +7,7 @@ clients and tasks, from a terminal or a script.
 ## Install
 
 ```bash
-npm install -g angelwood-cli
+npm install -g github:NewOdysseyConsulting/angelwood-cli
 ```
 
 Needs Node.js 20 or later. It has no dependencies.
